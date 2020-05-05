@@ -1,9 +1,9 @@
 # ATtiny 10/20/85 Brakeout Board
-
-##Description
+![](./Images/pcb_360.gif)
+## Description
 ###### An ATtiny brakeout board for ATtiny 10/202/85. You can use it for any device you need it. It's desinged in Altium Designer 20 and you can open and edit the project under the file Sourcer/ATTINY.PrjPcb
 
-##How to print the board
+## How to print the board
 ###### Firstly clone the project by typing
 ```
 $ git clone https://github.com/alex-z-charalampidis/attiny_brakeout_board.git
@@ -13,9 +13,8 @@ $ git clone https://github.com/alex-z-charalampidis/attiny_brakeout_board.git
 ###### 2) Zip them 
 ###### 3) Send them for fabrication to whicever provider you like (oshpark,jlcpcb,pcbway..)
 
-##PIN Layout
-| ATTINY10 |
-|----------|
+## PIN Layout
+##### ATTiny10
 |BOARD|MCU |
 |-----|----|
 |T1_P1|ADC0/PB0|
@@ -23,8 +22,7 @@ $ git clone https://github.com/alex-z-charalampidis/attiny_brakeout_board.git
 |T1_P6|ADC3/PB3|
 |T1_P4|ADC2/PB2|
 
-| ATTINY202 |
-|----------|
+##### ATTiny202
 |BOARD|MCU |
 |-----|----|
 |T2_P5|AI2/PA2|
@@ -33,3 +31,5 @@ $ git clone https://github.com/alex-z-charalampidis/attiny_brakeout_board.git
 |T2_P4|PA1/AI1|
 |T2_P3|PA7/AI7|
 |T2_P2|PA6/AI6|
+
+
